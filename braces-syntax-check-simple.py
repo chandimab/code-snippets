@@ -6,8 +6,6 @@ import random
 import re
 import sys
 
-# Complete the 'parseBracers' function below.
-
 mystack=[]
 found_braces=False
 
@@ -48,7 +46,6 @@ def push(c):
     
 
 def parseBracers(code):
-    # place your code here
     mystack.clear()
     for c in code:
         #print(c,end='')
